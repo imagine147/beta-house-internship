@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+  --font-outfit: 'Outfit', sans-serif;
+}
+
+body {
+  font-family: var(--font-outfit);
+}
+
+.bg-hero {
+  background-image: url('/images/Frame 9325.svg');
+  background-size: cover;
+  background-position: center;
+  background-color: #1D293F1F;
+  top: 0;
+}
