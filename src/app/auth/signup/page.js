@@ -36,7 +36,7 @@ export default function SignUp() {
   const password = watch("password");
 
   return (
-    <div className="w-11/12 mx-auto px-4 md:px-0 lg:pl-16 flex flex-col md:flex-row items-center justify-center h-screen 2xl:h-full gap-12">
+    <div className="w-11/12 mx-auto px-4 md:px-0 lg:pl-16 flex flex-col md:flex-row items-center justify-center mt-16 lg:mt-0 h-screen 2xl:h-full gap-12">
       {/* Mobile navbar */}
       <div className="block lg:hidden w-full fixed top-0 left-0 bg-[#1D293F1F] py-4 z-50">
         <Link href="/" className="px-8 md:px-12 flex items-center gap-2 text-white">
