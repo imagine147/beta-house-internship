@@ -71,14 +71,14 @@ export default function ForgotPassword() {
 
           <button
             type="submit"
-            className="rounded-md py-3 hover:bg-opacity-90 text-xs md:text-base w-full text-center my-6 bg-[#3D9970] text-white"
+            className="rounded-md py-3 hover:opacity-90 text-xs md:text-base w-full text-center my-6 bg-[#3D9970] text-white cursor-pointer transition duration-300"
           >
             <p className="text-base text-white">Submit</p>
           </button>
 
           <h4
             onClick={handleBack}
-            className="text-sm font-normal flex gap-1 cursor-pointer text-[#767779]"
+            className="text-sm font-normal flex gap-1 cursor-pointer text-[#767779] hover:text-[#3D9970] transition duration-300"
           >
             <BsArrowLeft style={{ width: "20px", height: "20px" }} />
             Back to previous
@@ -95,7 +95,7 @@ export default function ForgotPassword() {
           alt="House Image"
           className="w-[779px] 2xl:h-screen object-cover rounded-lg"
         />
-        <div className="absolute top-8 left-8 flex items-center gap-2 text-white">
+        <div className="absolute top-8 left-8 flex items-center gap-2 text-white hover:opacity-80 transition duration-300">
           <span className="rounded-full bg-[#3D9970] px-1 py-0.5">
             <h1 className="text-lg">BH</h1>
           </span>

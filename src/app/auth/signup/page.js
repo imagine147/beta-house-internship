@@ -157,7 +157,7 @@ export default function SignUp() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full rounded-lg py-3 text-white bg-[#3D9970] disabled:opacity-50"
+              className="w-full rounded-lg py-3 text-white bg-[#3D9970] disabled:opacity-50 hover:opacity-90 transition-opacity cursor-pointer"
             >
               {isSubmitting ? "Signing up..." : "Sign up"}
             </button>
@@ -166,7 +166,7 @@ export default function SignUp() {
               or
               <div className="w-[40%] border border-gray-300"></div>
             </div>
-            <button type="button" className="w-full flex gap-2 items-center justify-center text-[#292929] border rounded-lg py-3">
+            <button type="button" className="w-full flex gap-2 items-center justify-center text-[#292929] border rounded-lg py-3 cursor-not-allowed hover:opacity-90">
               <FcGoogle size={16} />
               Continue with Google
             </button>
@@ -175,7 +175,7 @@ export default function SignUp() {
           <div className="flex gap-2 text-[#716F6F] text-xs justify-center pt-4">
             Already have an account?
             <Link href="/auth/signin">
-              <span className="text-[#3D9970] cursor-pointer">Sign In</span>
+              <span className="text-[#3D9970] cursor-pointer hover:opacity-50">Sign In</span>
             </Link>
           </div>
         </form>
@@ -190,7 +190,7 @@ export default function SignUp() {
           alt="House Image"
           className="w-full h-screen object-cover"
         />
-        <Link href="/" className="absolute top-8 left-8 flex items-center gap-2 text-white">
+        <Link href="/" className="absolute top-8 left-8 flex items-center gap-2 text-white hover:opacity-80">
           <span className="rounded-full bg-[#3D9970] px-1 py-0.5"><h1 className="text-lg">BH</h1></span>
           <div className="text-lg font-bold">BetaHouse</div>
         </Link>

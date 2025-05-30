@@ -1,7 +1,6 @@
 import { CiCircleMinus } from "react-icons/ci";
 import { CiCirclePlus } from "react-icons/ci";
 export default function FindProperties() {
-  const isDisabled = false;
   return (
     <div className="w-full absolute top-96 md:static p-4 bg-[#FFFFFF33]">
       <div className="bg-white flex md:flex-row justify-between pl-2 md:pl-6 rounded-md text-[#353F50] text-[8px] md:text-xs">
@@ -24,8 +23,7 @@ export default function FindProperties() {
           </div>
         </div>
 
-        <button disabled={isDisabled}
-          className={`px-2 md:px-8 py-2 text-white rounded-r-md ${isDisabled ? "bg-gray-400 cursor-not-allowed" : "bg-[#3D9970]"}`}>Find Property</button>
+        <button className="px-2 md:px-8 py-2 bg-[#3D9970] text-white rounded-r-md cursor-not-allowed">Find Property</button>
       </div>
     </div>
   )

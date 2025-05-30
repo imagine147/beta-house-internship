@@ -39,9 +39,9 @@ export default function NavBar() {
   }, [menuOpen]);
 
   return (
-    <div className="bg-[#1D293F1F]  w-full fixed z-9999 shadow-md">
+    <div className="bg-[#1D293F1F]  w-full fixed top-0 z-9999 shadow-md">
       <div className="w-11/12 mx-auto flex items-center justify-between py-6">
-        <Link href="/" className="flex items-center gap-2 text-white">
+        <Link href="/" className="flex items-center gap-2 text-white hover:opacity-90 cursor-pointer">
           <span className="rounded-[100%] bg-[#3D9970] px-1 py-0.5"><h1 className="text-lg">BH</h1></span>
           <div className="text-lg font-bold">BetaHouse</div>
         </Link>
