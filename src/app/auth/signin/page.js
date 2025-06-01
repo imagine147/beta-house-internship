@@ -109,7 +109,7 @@ export default function SignIn() {
                   Remember Me
                 </label>
                 {errors.rememberMe && (
-                  <span className="text-red-500 text-[12px]">{errors.rememberMe.message}</span>
+                  <span className="text-red-500 text-[12px] tracking-tight">{errors.rememberMe.message}</span>
                 )}
               </div>
 

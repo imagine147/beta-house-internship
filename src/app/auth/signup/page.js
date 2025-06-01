@@ -150,7 +150,7 @@ export default function SignUp() {
               I agree to the <span className="text-[#3D9970]">Terms of Service</span> and <span className="text-[#3D9970]">Privacy Policies</span>
             </span>
           </div>
-          {errors.terms && <span className="text-red-500 text-[12px] block pb-2">{errors.terms.message}</span>}
+          {errors.terms && <span className="text-red-500 text-[12px] tracking-tight block pb-2">{errors.terms.message}</span>}
 
           {/* Buttons */}
           <div className="text-xs space-y-4">
